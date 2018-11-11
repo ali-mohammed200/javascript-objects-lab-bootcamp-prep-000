@@ -1,5 +1,6 @@
 let recipes = {};
 function updateObjectWithKeyAndValue(obj, k, v){
-  obj[k] = v;
-  return obj;
+  let newObj = Object.assing({}, obj);
+  newObj[k] = v;
+  return newObj;
 }
